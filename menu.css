@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3e3b3b; /* Dark background color */
+  font-family: normal; /* Use a valid font family */
+  color: #fffcfc; /* Text color */
+  padding-top: 60px; /* Add padding to prevent content from being hidden behind the fixed nav */
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff; /* White background for nav */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  z-index: 1000; /* Ensure nav is on top */
+  position: fixed; /* Fixed position for sticky effect */
+  top: 0; /* Stick to the top */
+  left: 0; /* Align to the left */
+  right: 0; /* Align to the right */
+}
+
+.nav-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000000;
+}
+
+.nav-links a {
+  color: #333;
+  text-decoration: none;
+  margin-left: 2rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #848687; /* Change color on hover */
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-top: 70px; /* Add margin to separate from nav */
+}
+
+main {
+  padding: 20px; /* Add padding to main content */
+  text-align: center; /* Center align text */
+}
+
+.menu-item {
+  text-align: center; /* Center align text */
+  z-index: 2; /* Place text above overlay */
+  text-decoration: aliceblue;
+  padding-top: 30px; /* Add padding to the top */
+  font-size: 2.0rem; /* Increase font size */
+}
+
+.cta-button {
+  background-color: #414141; /* Button color */
+  color: white; /* Button text color */
+  padding: 10px 20px; /* Button padding */
+  text-decoration:dotted; /* Remove underline */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth transition */
+  padding-bottom: 30px;
+}
+
+.cta-button:hover {
+  background-color: #f1eeee; /* Darker shade on hover */
+  color: #000000;
+}
+
+ /* image */
+.image-of-food {
+  width: 50%; /* Full width */
+  height: 10%; /* Maintain aspect ratio */
+  border-radius: 10px; /* Rounded corners */
+  margin-bottom: 20px; /* Space below image */
+  padding-left: 250px;
+  padding-top: 50px;
+}
+
+/* Footer */
+footer {
+  background-color: #fdfbfb; /* Dark background for footer */
+  color: #000000; /* White text color */
+  text-align:start; /* Center text in footer */
+  /* padding: 1rem; Padding around the footer */
+  position: relative; /* Position relative for footer */
+  bottom: 0; /* Align to the bottom */
+  left: 0; /* Align to the left */
+  right: 0; /* Align to the right */
+  justify-content: end; /* Center content in footer */
+}
+
+.footer-content{
+  background-color: rgb(252, 253, 253);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Define grid columns */
+  padding-top: 4%; /* Padding around the footer content */
+  padding-left: 5rem; /* Padding around the footer content */
+  font-size: 1rem; /* Font size for footer text */
+  padding-bottom: 8%;
+}

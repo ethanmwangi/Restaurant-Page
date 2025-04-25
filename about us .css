@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(For\ ramen\ shop.png); /* Use a ramen-themed background image */
+    ; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    box-sizing: border-box;
+    font-family: normal ;
+   color: rgb(255, 255, 255); /* Text color */
+    background-color: rgb(69, 69, 65); /* Fallback color */
+    background-repeat: no-repeat;
+    background-size: cover; /* Cover the entire background */
+    font-size: large; /* Set a default font size */
+}
+
+header {
+    background-color: rgb(255, 255, 255); /* Semi-transparent background for header */
+    padding: 10px;
+}
+
+#header-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-nav ul {
+    display: flex;
+    list-style: none;
+}
+
+#header-nav ul li {
+    margin: 0 15px; /* Space between menu items */
+}
+
+
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: rgb(247, 247, 247);
+  }
+  
+  .nav-logo {
+    color: #060606;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .nav-links a {
+    color: #0b0b0b;
+    text-decoration: none;
+    margin-left: 2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #aaa;
+  }
+  .content {
+    max-width: 800px; /* Limit the width of the content */
+    margin: 0 auto; /* Center the content */
+    padding: 20px; /* Add padding around the content */
+}
+
+h2 {
+  justify-content: center;
+  align-items: center;
+}
+
+/* Footer */
+footer {
+  background-color: #fdfbfb; /* Dark background for footer */
+  color: #000000; /* White text color */
+  text-align:start; /* Center text in footer */
+  /* padding: 1rem; Padding around the footer */
+  position: relative; /* Position relative for footer */
+  bottom: 0; /* Align to the bottom */
+  left: 0; /* Align to the left */
+  right: 0; /* Align to the right */
+  justify-content: end; /* Center content in footer */
+}
+
+.footer-content{
+  background-color: rgb(252, 253, 253);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Define grid columns */
+  padding-top: 4%; /* Padding around the footer content */
+  padding-left: 5rem; /* Padding around the footer content */
+  font-size: 1rem; /* Font size for footer text */
+  padding-bottom: 8%;
+}
